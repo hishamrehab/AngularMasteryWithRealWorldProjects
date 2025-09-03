@@ -15,6 +15,8 @@ export class NewTaskComponent {
     enterdTitle = "";
     enterdSummary = "";
     enterdDate = "";
+  
+
 
   onCancel() {
    this.cancel.emit();
@@ -25,6 +27,6 @@ export class NewTaskComponent {
     title: this.enterdTitle,
     summary: this.enterdSummary,
     date: this.enterdDate
-  })
+  });
   }
 }
